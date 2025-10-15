@@ -35,3 +35,4 @@ Wallpaper and theme manager using pywal. Updates:
 
 Usage: `wal-hypr /path/to/wallpaper`
 # dotfiles
+# dotfiles
