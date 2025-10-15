@@ -1,0 +1,14 @@
+# Example hyprland color placeholders (put these where your colors belong)
+# You can expand this to include other keys you want themed
+
+# Window border colors
+active_border = ${color2}
+inactive_border = ${color0}
+
+# Background / foreground (example usage)
+background = ${background}
+foreground = ${foreground}
+
+# Example accent / decoration
+panel_background = ${color3}
+panel_foreground = ${foreground}

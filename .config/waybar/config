@@ -1,0 +1,58 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin": "5 5 0 5",
+    "reload_style_on_change": true,
+    "modules-left": ["clock", "tray"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["network", "bluetooth"],
+    
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+	    "active":"",
+	    "default":"",
+	    "empty":""
+	},
+	"persistent-workspaces": {
+	    "*": [1,2,3,4,5]
+	},
+	"on-click": "activate"
+    },
+    "hyprland/window": {
+        "max-length": 50
+    },
+    "clock": {
+        "format": "{:%H:%M}",
+        "tooltip-format": "<tt>{calendar}</tt>"
+    },
+    "network": {
+        "format-wifi": " ",
+        "format-ethernet": "",
+        "format-disconnected": "",
+	"on-click": "kitty nmtui"
+    },
+    "bluetooth": {
+        "format-on": "󰂯",
+        "format-off": "OFF",
+        "format-disabled": "󰂲",
+        "format-connected-battery": "{device_battery_percentage}% 󰂯",
+	"format-alt": "{device_alias} 󰂯",
+	"on-click-right": "blueman-manager"
+    },
+    "pulseaudio": {
+        "format": "{volume}% {icon}",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "muted ",
+        "format-icons": {
+            "headphones": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "tray": {
+        "icon-size": 14,
+        "spacing": 10
+    }
+}

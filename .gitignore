@@ -1,0 +1,10 @@
+# Backup files
+*.bak
+*.walbak.*
+
+# Cache
+.cache/
+
+# Private/sensitive
+*_history
+*.log
