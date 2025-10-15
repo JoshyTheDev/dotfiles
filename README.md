@@ -34,5 +34,3 @@ Wallpaper and theme manager using pywal. Updates:
 - Generates pywal color schemes
 
 Usage: `wal-hypr /path/to/wallpaper`
-# dotfiles
-# dotfiles
