@@ -1,5 +1,4 @@
 #!/bin/bash
-# Find Firefox profile directory
 
 # Check if a wallpaper was provided
 if [ -z "$1" ] || [ ! -f "$1" ]; then
@@ -16,16 +15,6 @@ fi
 
 # Generate pywal colors
 wal -i "$WALLPAPER"
-
-# Link pywal colors to Firefox profile
-# Update Zen Browser theme
-ZEN_PROFILE=~/.zen/"tvn7h7bv.Default (release)"
-if [ -d "$ZEN_PROFILE" ]; then
-  mkdir -p "$ZEN_PROFILE/chrome"
-  ln -sf ~/.cache/wal/colors-firefox.css "$ZEN_PROFILE/chrome/userChrome.css"
-fi
-
-pywalfox update
 
 # Reload Hyprland config to apply new colors
 hyprctl reload
