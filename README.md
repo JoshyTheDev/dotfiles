@@ -41,7 +41,7 @@ My setup includes numerous features such as:
 </details>
 
 ## Keybinds
-
+`WIN` + `T` - Opens Kitty Terminal
 
 ## Credits & Inspirations
 
