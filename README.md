@@ -17,7 +17,7 @@ My personal dotfiles for Hyprland setup.
 
 ```bash
 # Clone the repository
-git clone <your-repo-url> ~/dotfiles
+git clone https://github.com/JoshyTheDev/dotfiles ~/dotfiles
 
 # Symlink configs (example)
 ln -sf ~/dotfiles/.config/hypr ~/.config/hypr
@@ -30,7 +30,6 @@ ln -sf ~/dotfiles/.local/bin/wal-hypr ~/.local/bin/wal-hypr
 ### wal-hypr
 Wallpaper and theme manager using pywal. Updates:
 - Hyprland colors
-- Firefox/Zen Browser theme
 - Generates pywal color schemes
 
 Usage: `wal-hypr /path/to/wallpaper`
