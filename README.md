@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Doto&weight=600&size=50&duration=1&pause=1&color=000000&center=true&vCenter=true&repeat=false&width=435&lines=JOSHY'S+DOTS" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Doto&weight=600&size=50&duration=1&pause=1&color=686845&center=true&vCenter=true&repeat=false&width=500&height=100&lines=JOSHY'S+DOTS" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
@@ -33,7 +33,9 @@ My setup includes numerous features such as:
 </details>
 <details>
   <summary><b>Waybar</b> - The better status bar</summary>
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/JoshyTheDev/dotfiles/main/showcase/waybar.png" alt="Showcase screenshot of my waybar" style="max-width:100%; height:auto;" />
+</p>
   - Sleek, minimalist design
   - Dynamic styling that adapts with Pywal colors
 </details>
