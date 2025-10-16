@@ -1,5 +1,5 @@
-# JoshyTheDev's Dotfiles
+<img src="https://github.com/JoshyTheDev/dotfiles/blob/main/showcase/showcase.jpg" width = "100%">
 
 ## Installation
 > [!CAUTION]
-> I have only used this on [Endeavour OS](https://endeavouros.com/), so if you want to use these dotfiles, fork this repository, review the code, and remove the things you don't want. DO NOT use my settings blindly. Use these at your own risk!
+> This is still in development and is _my little **experiment**_. Please use this at your own discretion!
